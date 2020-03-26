@@ -1,0 +1,30 @@
+{
+  "name": "balm-vue",
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "author": "ZeroHe <897457487@qq.com>",
+  "scripts": {
+    "dev": "gulp --silent",
+    "prod": "gulp --silent -p",
+    "test": "jest"
+  },
+  "dependencies": {
+    "balm-ui": "^5.6.1",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.32",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^25.1.0",
+    "balm": "^2.10.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "gulp": "^4.0.2",
+    "jest": "^25.1.0",
+    "vue-jest": "^3.0.5",
+    "vue-loader": "^15.9.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "private": true
+}
