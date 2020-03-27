@@ -1,9 +1,12 @@
 import Vue from 'vue';
 import VueRouter from "vue-router"; //npm install vue-router | <script src="/path/to/vue-router.js"></script>
-import App from './views/layouts/app';
+// import App from './views/layouts/app';
+import App from '@/views/layouts/app';
 import BalmUI from 'balm-ui'; // Mandatory
 import BalmUIPlus from 'balm-ui/dist/balm-ui-plus'; // Optional
 import BalmUINext from 'balm-ui/dist/balm-ui-next'; // Experimental
+
+import Table from '@/views/pages/table.vue'
 
 Vue.config.productionTip = false;
 Vue.use(BalmUI); // Mandatory
@@ -22,7 +25,8 @@ const Bar = { template: '<div>bar</div>' }
 const router = new VueRouter({
   routes : [
     { path: '/foo', component: Foo },
-    { path: '/bar', component: Bar }
+    { path: '/bar', component: Bar },
+    { path: '/table', component: Table }
   ]
 })
 
